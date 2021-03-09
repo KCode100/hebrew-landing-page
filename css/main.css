@@ -127,23 +127,23 @@ body {
 }
 
 .parallax--1 {
-  background-image: url("../img/shawl_10.jpg");
+  background-image: url("../img/shawl_1_optimized.jpg");
 }
 
 .parallax--2 {
-  background-image: url("../img/torah.jpg");
+  background-image: url("../img/torah_optimized.jpg");
 }
 
 .parallax--3 {
-  background-image: url("../img/kotel.jpg");
+  background-image: url("../img/kotel_optimized.jpg");
 }
 
 .parallax--4 {
-  background-image: url("../img/bar-mitzvah.jpg");
+  background-image: url("../img/bar-mitzvah_optimized.jpg");
 }
 
 .parallax--5 {
-  background-image: url("../img/siddur.jpg");
+  background-image: url("../img/siddur_optimized.jpg");
 }
 
 .questions {
