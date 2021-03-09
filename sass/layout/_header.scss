@@ -1,0 +1,39 @@
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+  width: 100%;
+  background-color: rgba($color-grey-dark-2, 0.8);
+  font-size: 1.8rem;
+  align-items: center;
+  z-index: 1;
+
+  & > * {
+    padding: 0 4rem;
+  }
+
+  &__logo {
+    color: $color-primary;
+    flex: 1;
+    text-align: left;
+    font-weight: 900;
+    font-family: "Tinos", serif;
+    font-size: 4rem;
+  }
+
+  &__description {
+    flex: 1;
+  }
+
+  &__btn-container {
+    flex: 1;
+  }
+  &__btn {
+    position: absolute;
+    bottom: -0.5rem;
+    right: 70%;
+  }
+}

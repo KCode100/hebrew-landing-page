@@ -1,0 +1,32 @@
+.parallax {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 60vh;
+
+  &--large {
+    height: 80vh;
+  }
+
+  &--1 {
+    background-image: url("/img/shawl.jpg");
+  }
+
+  &--2 {
+    background-image: url("/img/torah.jpg");
+  }
+  &--3 {
+    background-image: url("/img/kotel.jpg");
+  }
+  &--4 {
+    background-image: url("/img/bar-mitzvah.jpg");
+  }
+  &--5 {
+    background-image: url("/img/siddur.jpg");
+  }
+}
+
+// USE FOR MOBILE DEVICES TO AVOID PARALLAX
+// background-attachment: scroll;
