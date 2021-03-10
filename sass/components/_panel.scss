@@ -3,6 +3,8 @@
   min-height: 40vh;
   position: relative;
   padding: 5rem 3rem;
+  font-size: 1.8rem;
+  font-weight: 400;
 
   &--1 {
     background-color: $color-primary;
@@ -19,13 +21,38 @@
   &--5 {
     background-color: $color-primary;
   }
+
+  &__content {
+    margin: 2rem 0 5rem;
+  }
+
+  &__list {
+    column-count: 3;
+    column-gap: 10rem;
+    font-size: 1.6rem;
+  }
+
+  &__item {
+    padding: 0.6rem;
+
+    &:last-child {
+      list-style-type: none;
+      color: $color-black;
+      font-weight: 900;
+      margin-top: 3rem;
+      font-size: 1.8rem;
+    }
+  }
 }
 
 .down-arrow {
   position: absolute;
-  bottom: -0.6rem;
+  bottom: 0;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, 0);
+  vertical-align: text-bottom;
+  display: flex;
+  align-items: flex-end;
 
   &__img {
     opacity: 0.7;
