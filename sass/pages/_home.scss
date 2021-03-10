@@ -1,0 +1,6 @@
+.testimonial {
+  padding: 0 3rem;
+  &:first-child {
+    border-left: 2px solid $color-primary;
+  }
+}

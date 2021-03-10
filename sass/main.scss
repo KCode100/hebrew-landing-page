@@ -5,9 +5,13 @@
 @import "base/utilities";
 
 @import "components/btn";
+@import "components/logo";
+@import "components/orange-list";
 @import "components/panel";
 @import "components/parallax";
 @import "components/questions";
 
 @import "layout/header";
 @import "layout/grid";
+
+@import "pages/home";

@@ -35,7 +35,7 @@
   &__item {
     padding: 0.6rem;
 
-    &:last-child {
+    &--seperate {
       list-style-type: none;
       color: $color-black;
       font-weight: 900;
