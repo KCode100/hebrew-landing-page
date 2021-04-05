@@ -127,6 +127,7 @@ body {
   color: #ed6f37;
   display: block;
   line-height: 1.2;
+  font-family: "Tinos", serif;
 }
 
 .attract__intro--blue {
@@ -307,8 +308,7 @@ body {
 }
 
 .parallax--1 {
-  background-image: url("../img/man-reading.webp");
-  background-position: right;
+  background-image: url("../img/img1-large_optimized.jpg");
 }
 
 .parallax--2 {
@@ -317,15 +317,15 @@ body {
 }
 
 .parallax--3 {
-  background-image: url("../img/tree.webp");
+  background-image: url("../img/boy-lying_optimized.jpg");
 }
 
 .parallax--4 {
-  background-image: url("../img/teenager-reading.webp");
+  background-image: url("../img/boy-sitting_optimized.jpg");
 }
 
 .parallax--5 {
-  background-image: url("../img/israel.webp");
+  background-image: url("../img/israel_optimized.jpg");
 }
 
 .copyright {
