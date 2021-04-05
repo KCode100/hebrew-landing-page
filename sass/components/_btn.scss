@@ -8,7 +8,23 @@
   text-decoration: none;
   cursor: pointer;
 
+  &--blue {
+    background-color: $color-blue-dark;
+    opacity: 0.8;
+  }
+
+  // &--light-blue {
+  //   background-color: $color-blue-light;
+  // }
+
   @media (max-width: 960px) {
     font-size: 1.6rem;
+  }
+}
+
+.contact-number {
+  color: $color-primary;
+  &--blue {
+    color: $color-blue-dark;
   }
 }

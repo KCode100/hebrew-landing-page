@@ -27,9 +27,18 @@
   }
 
   &__list {
-    column-count: 3;
-    column-gap: 10rem;
-    font-size: 1.6rem;
+    @media (min-width: 768px) {
+      column-count: 3;
+      column-gap: 10rem;
+      font-size: 1.6rem;
+    }
+
+    @media (max-width: 768px) {
+      column-count: 2;
+    }
+    @media (max-width: 480px) {
+      column-count: 1;
+    }
   }
 
   &__item {

@@ -1,0 +1,14 @@
+.attract {
+  margin-top: 3rem;
+  &__intro {
+    margin-left: 3rem;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: $color-primary;
+    display: block;
+
+    &--blue {
+      color: $color-blue-dark;
+    }
+  }
+}

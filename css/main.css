@@ -1,3 +1,13 @@
+::-moz-selection {
+  background-color: rgba(71, 71, 71, 0.8);
+  color: #ed6f37;
+}
+
+::selection {
+  background-color: rgba(71, 71, 71, 0.8);
+  color: #ed6f37;
+}
+
 *,
 *::after,
 *::before {
@@ -74,6 +84,13 @@ body {
   font-size: 1.8rem;
 }
 
+.contact {
+  display: block;
+  text-align: center;
+  margin: 2rem auto;
+  line-height: 2;
+}
+
 .u-margin-bottom-small {
   margin-bottom: 1.5rem;
 }
@@ -98,6 +115,22 @@ body {
           flex: 1;
 }
 
+.attract {
+  margin-top: 3rem;
+}
+
+.attract__intro {
+  margin-left: 3rem;
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #ed6f37;
+  display: block;
+}
+
+.attract__intro--blue {
+  color: #344270;
+}
+
 .btn {
   display: inline-block;
   background-color: #ed6f37;
@@ -109,10 +142,23 @@ body {
   cursor: pointer;
 }
 
+.btn--blue {
+  background-color: #344270;
+  opacity: 0.8;
+}
+
 @media (max-width: 960px) {
   .btn {
     font-size: 1.6rem;
   }
+}
+
+.contact-number {
+  color: #ed6f37;
+}
+
+.contact-number--blue {
+  color: #344270;
 }
 
 .logo {
@@ -169,12 +215,28 @@ body {
   margin: 2rem 0 5rem;
 }
 
-.panel__list {
-  -webkit-column-count: 3;
-          column-count: 3;
-  -webkit-column-gap: 10rem;
-          column-gap: 10rem;
-  font-size: 1.6rem;
+@media (min-width: 768px) {
+  .panel__list {
+    -webkit-column-count: 3;
+            column-count: 3;
+    -webkit-column-gap: 10rem;
+            column-gap: 10rem;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .panel__list {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+}
+
+@media (max-width: 480px) {
+  .panel__list {
+    -webkit-column-count: 1;
+            column-count: 1;
+  }
 }
 
 .panel__item {
@@ -230,23 +292,25 @@ body {
 }
 
 .parallax--1 {
-  background-image: url("../img/shawl_1_optimized.jpg");
+  background-image: url("../img/man-reading.webp");
+  background-position: right;
 }
 
 .parallax--2 {
-  background-image: url("../img/torah_optimized.jpg");
+  background-image: url("../img/kotel_optimized.jpg");
+  background-position: top;
 }
 
 .parallax--3 {
-  background-image: url("../img/kotel_optimized.jpg");
+  background-image: url("../img/tree.webp");
 }
 
 .parallax--4 {
-  background-image: url("../img/bar-mitzvah_optimized.jpg");
+  background-image: url("../img/teenager-reading.webp");
 }
 
 .parallax--5 {
-  background-image: url("../img/siddur_optimized.jpg");
+  background-image: url("../img/israel.webp");
 }
 
 .copyright {
