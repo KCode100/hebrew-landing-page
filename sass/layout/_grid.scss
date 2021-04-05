@@ -1,4 +1,9 @@
 .row {
   max-width: $grid-width;
   margin: auto;
+
+  &--large {
+    max-width: $grid-width-large;
+    margin: auto;
+  }
 }

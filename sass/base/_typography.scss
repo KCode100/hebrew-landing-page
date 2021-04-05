@@ -33,6 +33,7 @@ body {
 .heading-secondary {
   text-align: center;
   font-size: 4rem;
+  line-height: 1.2;
 }
 
 .free-lesson {
@@ -43,7 +44,7 @@ body {
 
 .paragraph {
   display: block;
-  color: $color-black;
+  color: $color-blue-dark;
   font-weight: 900;
   margin-bottom: 2rem;
   font-size: 1.8rem;
@@ -51,6 +52,6 @@ body {
 .contact {
   display: block;
   text-align: center;
-  margin: 2rem auto;
+  margin: 4.5rem auto;
   line-height: 2;
 }

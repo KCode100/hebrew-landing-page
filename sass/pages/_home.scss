@@ -1,6 +1,24 @@
-.testimonial {
-  padding: 0 3rem;
-  &:first-child {
-    border-left: 2px solid $color-primary;
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+  flex-wrap: wrap;
+  &--big {
+    @media (min-width: 920px) {
+      width: 60%;
+    }
   }
+
+  &--column {
+    flex-direction: column;
+    flex: 1;
+  }
+}
+
+.testimonial {
+  background-color: rgba($color-white, 0.2);
+  padding: 2rem 4rem;
+  border-radius: 0.5rem;
+  min-width: 30rem;
 }

@@ -1,4 +1,15 @@
 .orange-list {
+  background-color: rgba($color-white, 0.1);
+  padding: 2rem 6rem;
+  border-radius: 1rem;
+  margin: 4rem 0;
+
+  @media (max-width: 768px) {
+    padding: 3rem;
+  }
+  @media (max-width: 480px) {
+    padding: 5rem 1rem;
+  }
   list-style: none;
   & > li {
     &::before {
