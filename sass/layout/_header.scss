@@ -4,25 +4,39 @@
   right: 0;
   display: flex;
   flex-wrap: wrap;
-  padding: 0 1rem;
+  padding: 1.5rem 1rem;
   width: 100%;
   background-color: rgba($color-grey-dark-2, 0.8);
   font-size: 1.8rem;
   align-items: center;
   z-index: 1;
+  line-height: 1;
+  @media (max-width: 960px) {
+    padding: 1.5rem 0.5rem;
+  }
 
   & > * {
     padding: 0 4rem;
+    @media (max-width: 960px) {
+      padding: 0 0.5rem;
+    }
   }
 
   &__logo {
     flex: 1;
     text-align: left;
     font-size: 4rem;
+    @media (max-width: 960px) {
+      font-size: 2.8rem;
+      text-align: center;
+    }
   }
 
   &__description {
     flex: 1;
+    @media (max-width: 960px) {
+      font-size: 1.4rem;
+    }
   }
 
   &__btn-container {
@@ -32,5 +46,12 @@
     position: absolute;
     bottom: -0.5rem;
     right: 70%;
+    padding: 1rem 2rem;
+
+    @media (max-width: 960px) {
+      font-size: 1.4rem;
+      text-align: center;
+      padding: 0.5rem 1rem;
+    }
   }
 }
