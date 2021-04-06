@@ -1,7 +1,11 @@
 .logo {
-  color: $color-primary;
+  color: rgba($color-white, 0.7);
   text-align: left;
   font-weight: 900;
   font-family: "Tinos", serif;
   font-size: 4.2rem;
+
+  &--orange {
+    color: $color-primary;
+  }
 }
